@@ -1,12 +1,30 @@
 
 body {
-	background-image: url("bg.jpg");
+	background-image: url("../media/bg.jpg");
 	font-family: 'Sniglet';
 }
 
 .custom-font {
 	font-family: 'Sniglet';
 }
+
+.color-white {
+	color: white
+}
+
+.card {
+	background-color: rgba(255, 255, 255, 0.18);
+	border: 1px solid rgba(59, 88, 118, 0.71);
+}
+
+.custom-card {
+	background-color: #fff;
+	border: 1px solid rgba(31, 31, 31, 0.41);
+}
+
+/*.text-muted {
+	color: #fff!important;
+}*/
 
 .img-border {
     padding: .76rem;
@@ -16,6 +34,7 @@ body {
 }
 
 .custom-detail-card {
+	background-color: #fff;
 	border: 1px solid rgba(0,0,0,.125);
     border-radius: .45rem;
 }
@@ -29,4 +48,8 @@ body {
 }
 .cwspy{
 	color: white !important;
+}
+
+#id_description , #div_id_name, #id_activities, #id_optimal_visiting_season {
+	width: 40%;
 }

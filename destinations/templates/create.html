@@ -4,9 +4,10 @@
 {% block title %}Create{% endblock title %}
 
 {% block content %}
-<form action="{% url 'destination-create' %}" method="POST" enctype="multipart/form-data">
-  {% csrf_token %}
-  {{form|crispy}}
+	<form action="{% url 'destination-create' %}" method="POST" enctype="multipart/form-data">
+  		{% csrf_token %}
+  		{{form|crispy}}
+	</form>
 
 
   <input type="submit" value="Save" class="btn btn-success my-3">

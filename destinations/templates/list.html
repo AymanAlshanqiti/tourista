@@ -12,7 +12,7 @@
 			<div class="card text-center">
 			  <img class="card-img-top" src="{{destination.pretty_picture.url}}" alt="Card image cap">
 			  <div class="card-body">
-			    <h5 class="card-title custom-font">{{destination.name}}</h5>
+			    <h5 class="card-title custom-font"><strong>{{destination.name}}</strong></h5>
 			    <p class="card-text custom-font">{{destination.activities}}</p>
 			    <a href="{% url 'destination-detail' destination.id %}">
 			    	<button type="button" class="btn btn-warning custom-font">Read more</button>
