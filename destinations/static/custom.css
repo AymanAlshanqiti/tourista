@@ -1,0 +1,32 @@
+
+body {
+	background-image: url("bg.jpg");
+	font-family: 'Sniglet';
+}
+
+.custom-font {
+	font-family: 'Sniglet';
+}
+
+.img-border {
+    padding: .76rem;
+    background-color: #fff;
+    max-width: 100%;
+    height: auto;
+}
+
+.custom-detail-card {
+	border: 1px solid rgba(0,0,0,.125);
+    border-radius: .45rem;
+}
+
+.col-form-label {
+	color: #fff
+}
+
+.bg-dark {
+	background-color: rgba(15, 37, 64, 0.4588235294117647)!important;
+}
+.cwspy{
+	color: white !important;
+}
